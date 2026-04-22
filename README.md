@@ -1,7 +1,7 @@
 implementation of a 2 input NAND gate and a 4 input XOR gate top module verified with test bench
 ## Project Structure
-top_module: contains the hardware design files
-test_bench: contains the verification files
+top_module: contains the hardware design files <br>
+test_bench: contains the verification files <br>
 ## How to Run the Simulations
 
 ### 1. 2-Input AND Gate
