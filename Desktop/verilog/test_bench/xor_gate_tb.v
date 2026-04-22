@@ -4,6 +4,7 @@ module xor_gate_tb;
 
   reg a, b, c, d;
   wire y;
+  integer i; // Define an integer for the loop
   
   // Reference (expected output)
   wire y_ref;
@@ -32,7 +33,6 @@ module xor_gate_tb;
       $dumpvars(0, xor_gate_tb);
   
       // Test all cases
-      integer i; // Define an integer for the loop
 
     for (i = 0; i < 16; i = i + 1) begin
         {a, b, c, d} = i; // Assign the binary value of 'i' to the 4 inputs
