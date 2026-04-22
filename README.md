@@ -5,7 +5,6 @@ test_bench: contains the verification files
 ## How to Run the Simulations
 
 ### 1. 2-Input AND Gate
-##compile
 iverilog -o and_sim.vvp top_module/and_gate.v test_bench/and_gate_tb.v
 vvp and_sim.vvp
 gtkwave and_gate.vcd
